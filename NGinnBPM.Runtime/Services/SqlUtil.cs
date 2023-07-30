@@ -75,6 +75,7 @@ namespace NGinnBPM.Runtime.Services
 
         #endregion
 
+//a
         public static bool IsSameDatabaseConnection(string connectionString1, string connectionString2)
         {
             if (string.Equals(connectionString1, connectionString2, StringComparison.InvariantCultureIgnoreCase)) return true;
